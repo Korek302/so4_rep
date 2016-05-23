@@ -4,9 +4,7 @@ import java.util.ArrayList;
 import java.util.Random;
 
 public class EqualAssignment
-{
-	//kupa
-	
+{	
 	Random r = new Random();
 	
 	int framesQuantity;

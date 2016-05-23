@@ -9,9 +9,9 @@ public class Test
 	int framesQuantity = 100;
 	int processesQuantity = 10;
 	int referencesQuantity = 1000;
-	int max = 2;
-	int min = -15;
-	int workingSetSize = 20;
+	int max = 1;
+	int min = -16;
+	int workingSetSize = 50;
 	
 	ArrayList<Process> processes = new ArrayList<Process>();
 	ArrayList<Frame> frames = new ArrayList<Frame>();
