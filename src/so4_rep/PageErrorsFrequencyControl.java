@@ -57,7 +57,7 @@ public class PageErrorsFrequencyControl
 			boolean isDone = false;
 			for(int j =0; j < referencesQuantity; j++)
 			{
-				if(processes.get(i).bit1 >= max)
+				if(processes.get(i).bit1 >= min)
 				{
 					startingAssignment++;
 					bit1 = 0;
@@ -66,7 +66,7 @@ public class PageErrorsFrequencyControl
 					Frame f = new Frame(0, 0);
 					frames.set(startingAssignment, f);
 				}
-				if(processes.get(i).bit2 <= min)
+				if(processes.get(i).bit2 <= max)
 				{
 					startingAssignment--;
 					bit2 = 0;
